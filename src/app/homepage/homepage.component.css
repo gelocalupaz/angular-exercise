@@ -1,0 +1,14 @@
+.container {
+    margin-top: 5%;
+    background-color: white;
+    padding: 60px 0px;
+    border-radius: 20px;
+}
+
+.spacer {
+    margin-bottom: 50px;
+}
+
+.spacer-2 {
+    margin-bottom: 100px;
+}

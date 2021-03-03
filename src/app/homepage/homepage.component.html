@@ -1,5 +1,13 @@
-<h1>Welcome!</h1>
-<p *ngIf="isValid">
-    The user: {{ user.username }} is logged in
-</p>
-<button class="btn btn-primary" (click)="logout()">Logout</button>
+<div class="container">
+    <div class="row justify-content-md-center spacer">
+        <h1>Welcome!</h1>
+    </div>
+    <div class="row justify-content-md-center spacer-2">
+        <p *ngIf="isValid">
+            User {{ user.username }} is currently logged in.
+        </p>
+    </div>
+    <div class="row justify-content-md-center">
+        <button class="btn btn-primary" (click)="logout()">Logout</button>
+    </div>
+</div>

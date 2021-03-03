@@ -1,0 +1,18 @@
+.container {
+    margin-top: 5%;
+    background-color: white;
+    padding: 60px 0px;
+    border-radius: 20px;
+}
+
+.spacer {
+    margin-top: 100px;
+}
+
+.login-btn-div {
+    margin-top: 50px;
+}
+
+.login-btn {
+    width: 100%;
+}
