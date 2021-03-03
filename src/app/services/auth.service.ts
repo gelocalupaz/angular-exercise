@@ -25,7 +25,7 @@ export class AuthService {
             if (username === this.testUser.username && password === this.testUser.password) {
                 result.next({ username: this.testUser.username, token: this.testUser.token });
             } else if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(username) && (password.length > 5 && password.length <= 20)) {
-                result.next({ username: this.testUser.username, token: this.testUser.token });
+                result.next({ username: username, token: this.testUser.token });
             } else {
                 result.error({ error: 'invalid user' });
             }
